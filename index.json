@@ -1,0 +1,43 @@
+{
+  "$jason": {
+    "head": {
+      "data": {
+        "items": [{
+          "text": "events",
+          "path": "/events/app.json"
+        }, {
+          "text": "href",
+          "path": "/href/app.json"
+        }, {
+          "text": "agent to agent request",
+          "path": "/request/agent2agent/app.json"
+        }, {
+          "text": "Jasonette to agent request",
+          "path": "/request/jasonette2agent/app.json"
+        }, {
+          "text": "agent to Jasonette Trigger",
+          "path": "/trigger/app.json"
+        }],
+        "root_url": "https://6f5b5e59.ngrok.io"
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "title": "$agent demo"
+          },
+          "sections": [{
+            "items": {
+              "{{#each items}}": {
+                "type": "label",
+                "text": "{{text}}",
+                "href": {
+                  "url": "{{$root.root_url}}{{path}}"
+                }
+              }
+            }
+          }]
+        }
+      }
+    }
+  }
+}
