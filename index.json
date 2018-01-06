@@ -18,7 +18,7 @@
           "text": "agent to Jasonette Trigger",
           "path": "/trigger/app.json"
         }],
-        "root_url": "https://6f5b5e59.ngrok.io"
+        "root_url": "https://jasonette.github.io/AgentJason"
       },
       "templates": {
         "body": {
