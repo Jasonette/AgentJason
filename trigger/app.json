@@ -22,12 +22,16 @@
         }
       },
       "templates": {
-        "header": {
-          "title": "$agent.trigger demo"
-        },
         "body": {
           "style": {
             "background": "{{$jason.color}}"
+          },
+          "header": {
+            "title": "$agent.trigger demo",
+            "style": {
+              "color": "#ffffff",
+              "background": "rgba(0,0,0,0)"
+            }
           },
           "layers": [{
             "type": "label",
