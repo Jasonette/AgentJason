@@ -4,7 +4,7 @@ Agents are like microservices that live on a mobile frontend.
 
 This repo includes some examples of Jasonette APIs
 
-You can start by opening the root [index.json](./index.json) from Jasonette.
+You can start by opening the root [index.json](https://jasonette.github.io/AgentJason/index.json) from Jasonette.
 
 Here's a brief overview:
 
