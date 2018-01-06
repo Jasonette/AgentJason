@@ -33,6 +33,9 @@
       }
     },
     "body": {
+      "header": {
+        "title": "$agent.ready event trigger demo"
+      },
       "sections": []
     }
   }

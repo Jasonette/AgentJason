@@ -22,6 +22,9 @@
         }
       },
       "templates": {
+        "header": {
+          "title": "$agent.trigger demo"
+        },
         "body": {
           "style": {
             "background": "{{$jason.color}}"

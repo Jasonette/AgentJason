@@ -58,6 +58,9 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "title": "jasonette <-> agent demo"
+          },
           "sections": [{
             "items": {
               "{{#concat}}": [
