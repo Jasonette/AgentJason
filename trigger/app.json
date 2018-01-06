@@ -8,7 +8,7 @@
         }
       },
       "actions": {
-        "$agent.ready": {
+        "$load": {
           "type": "$render",
           "options": {
             "data": {
