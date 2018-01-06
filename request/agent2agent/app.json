@@ -8,10 +8,10 @@
           "url": "https://jasonette.github.io/AgentJason/request/agent2agent/main.html"
         },
         "add": {
-          "url": "https://jasonette.github.io/AgentJason/agent2agent/add.html"
+          "url": "https://jasonette.github.io/AgentJason/request/agent2agent/add.html"
         },
         "subtract": {
-          "url": "https://jasonette.github.io/AgentJason/agent2agent/subtract.html"
+          "url": "https://jasonette.github.io/AgentJason/request/agent2agent/subtract.html"
         }
       },
       "styles": {
@@ -22,7 +22,7 @@
         }
       },
       "actions": {
-        "$load": {
+        "$agent.ready": {
           "type": "$set",
           "options": {
             "items": "Empty"
@@ -68,6 +68,9 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "title": "agent <-> agent demo"
+          },
           "sections": [{
             "items": [{
               "type": "label",

@@ -13,6 +13,9 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "title": "$agent.href demo"
+          },
           "style": {
             "background": "{{'#' + Math.round((0x1000000 + 0xffffff * Math.random())).toString(16).slice(1)}}",
             "border": "none"
