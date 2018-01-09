@@ -9,7 +9,7 @@
         }
       },
       "actions": {
-        "$agent.ready": {
+        "$load": {
           "type": "$util.banner",
           "options": {
             "title": "Ready",
