@@ -3,9 +3,6 @@
     "head": {
       "data": {
         "items": [{
-          "text": "events",
-          "path": "/events/app.json"
-        }, {
           "text": "href",
           "path": "/href/app.json"
         }, {
