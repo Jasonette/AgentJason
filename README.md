@@ -11,4 +11,3 @@ Here's a brief overview:
 1. trigger: Demonstrates `$agent.trigger`.
 2. request: Demonstrates `$agent.request` and `$agent.response`.
 3. href: Demonstrates `$agent.href`
-4. events: Demonstrates the `$agent.ready` event that gets triggered automatically

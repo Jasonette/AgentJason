@@ -22,7 +22,7 @@
         }
       },
       "actions": {
-        "$agent.ready": {
+        "$load": {
           "type": "$set",
           "options": {
             "items": "Empty"
